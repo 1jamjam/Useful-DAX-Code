@@ -1,0 +1,4 @@
+#You'll need to create a new measure in PowerBI and have columns containing total ad spend as well as sales in order to do this
+#Enjoy!
+
+Ratio = SUM('YTD Sales and Fees'[Profit]) / SUM('Cost of Advertising Data'[Advertising Costs])
